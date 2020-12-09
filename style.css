@@ -1,0 +1,9 @@
+
+body{
+    background-image: url("bg.jpg");
+    position: relative;
+    background-size: cover;
+    /* background-position: center;*/
+    /* background-repeat: no-repeat;  */
+
+}
