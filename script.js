@@ -1,9 +1,5 @@
 $(document).ready(function(){
-    // $("#table").load("https://jsonplaceholder.typicode.com/todos",function(res,status,xhr){
-    //     if(status=="success")
-    //         console.log("Success");
-    //     else
-    //         console.log("Error is "+xhr.status);
+    
     var length=0;
         $.getJSON("https://jsonplaceholder.typicode.com/todos",function(data){
             
@@ -48,7 +44,7 @@ $(document).ready(function(){
       });
       
 
-let LIST, id;
+
 const list = document.getElementsByClassName("table");
 for (var i = 0 ; i < length; i++) {
     list[i].addEventListener('click' , checking()) ; 
